@@ -1,5 +1,5 @@
-# MedExpenseAI 💰🏥
 
+<h1 align="center">MedExpenseAI 💰🏥</h1>
 <div align="center">
   <h4>Predicting medical insurance costs with AI-driven insights.</h4><br>
   <img src="https://github.com/FazilMammadli/MedExpenseAI/blob/main/sampleImages/doc.gif">
