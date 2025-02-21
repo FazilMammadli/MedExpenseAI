@@ -13,11 +13,11 @@ To predict things have been never so easy. I used to wonder how Insurance amount
  
 ## :hourglass: Some Screenshots
 
-![](https://github.com/FazilMammadli/MedExpenseAI/blob/master/sampleImages/Cor.png)
+![](https://github.com/FazilMammadli/MedExpenseAI/blob/main/sampleImages/Cor.png)
 
-![](https://github.com/FazilMammadli/MedExpenseAI/blob/master/sampleImages/AgevsCharges.png)
+![](https://github.com/FazilMammadli/MedExpenseAI/blob/main/sampleImages/AgevsCharges.png)
 
-![](https://github.com/FazilMammadli/MedExpenseAI/blob/master/sampleImages/deployments.png)
+![](https://github.com/FazilMammadli/MedExpenseAI/blob/main/sampleImages/deployments.png)
 
 ## :star: Features
 <ol>
