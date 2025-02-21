@@ -1,44 +1,116 @@
-<h1 align="center">Medical Insurance Cost Prediction</h1>
+# MedExpenseAI 💰🏥
 
-<div align= "center">
-  <h4>Medical Insurance Cost Prediction using Random Forest Regressor.</h4><br>
+<div align="center">
+  <h4>Predicting medical insurance costs with AI-driven insights.</h4><br>
   <img src="https://github.com/FazilMammadli/MedExpenseAI/blob/main/sampleImages/doc.gif">
 </div>
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+---
 
-## :innocent: Motivation
+## 🔥 What is MedExpenseAI?
 
-To predict things have been never so easy. I used to wonder how Insurance amount is charged normally. So, in the mean time I came across this dataset and thought of working on it! Using this I wanted to know how few features determine our insurance amount! 
- 
-## :hourglass: Some Screenshots
+**MedExpenseAI** is a powerful machine learning model designed to **predict medical insurance costs** based on key health and demographic factors. By leveraging **Random Forest Regressor**, it provides accurate cost estimations, helping users and insurance providers gain deeper financial insights. 
 
+Whether you're curious about **how insurance pricing works** or looking to **optimize healthcare expenses**, MedExpenseAI gives you the answers with **data-driven precision**.
+
+---
+
+## 🌟 Key Features
+
+✅ **Smart Data Processing** – Cleans and transforms raw data for analysis.  
+✅ **Correlation Heatmaps** – Visualizes feature impact on insurance costs.  
+✅ **Exploratory Data Analysis (EDA)** – Deep dive into patterns and trends.  
+✅ **Multiple ML Models** – Predict costs using various regressors.  
+✅ **Hyperparameter Tuning** – Optimizes model performance for accuracy.  
+✅ **Interactive Graphs & Insights** – Uncover meaningful relationships.  
+✅ **Flask Deployment** – Deploy your trained model as a web app.  
+
+---
+
+## 📸 Visual Insights
+
+📊 **Feature Correlation Heatmap**  
 ![](https://github.com/FazilMammadli/MedExpenseAI/blob/main/sampleImages/Cor.png)
 
+👴 **Age vs. Charges Analysis**  
 ![](https://github.com/FazilMammadli/MedExpenseAI/blob/main/sampleImages/AgevsCharges.png)
 
+🚀 **Model Deployment Preview**  
 ![](https://github.com/FazilMammadli/MedExpenseAI/blob/main/sampleImages/deployments.png)
 
-## :star: Features
-<ol>
-    <li>Exploring the dataset</li>
-    <li>Converting Categorical values to Numerical</li>
-    <li>Plotting Heatmap to see dependency of Dependent valeu on Independent features</li>
-    <li>Data Visualization (Plots of feature vs feature)</li>
-    <li>Plotting Skew and Kurtosis</li>
-    <li>Data Preparation</li>
-    <li>Prediction using Linear Regression</li>
-    <li>Prediction using SVR</li>
-    <li>Prediction using Ridge Regressor</li>
-    <li>Prediction using Random Forest Regressor</li>
-    <li>Performing Hyper tuning for above mentioned models</li>
-    <li>Plotting Graph for all Models to compare performance</li>
-    <li>Preparing model for deployment</li>
-    <li>Deployed model using Flask</li>
-</ol>
+---
 
-## :key: Results
+## 🛠️ How It Works
 
-####  Model gave 86% accuracy for Medical Insurance Amount Prediction using <code>Random Forest Regressor</code>
+1️⃣ **Data Preprocessing** – Convert categorical variables, handle missing values.  
+2️⃣ **Feature Engineering** – Identify the most relevant features affecting insurance costs.  
+3️⃣ **Model Training** – Train and test with multiple ML algorithms:
+   - Linear Regression
+   - Support Vector Regression (SVR)
+   - Ridge Regressor
+   - **Random Forest Regressor** (Best Performing 🚀)  
+4️⃣ **Hyperparameter Tuning** – Optimize model performance.  
+5️⃣ **Deployment** – Deploy the model using **Flask** for real-world predictions.  
 
+---
 
+## 🎯 Model Performance
+
+✅ **Achieved 86% accuracy** using **Random Forest Regressor** for insurance cost prediction.  
+✅ Provides real-time insights into medical expenses based on health indicators.  
+
+---
+
+## 🚀 Get Started
+
+### **🔹 Clone the Repository**
+```sh
+git clone https://github.com/FazilMammadli/MedExpenseAI.git
+cd MedExpenseAI
+```
+
+### **🔹 Install Dependencies**
+```sh
+pip install -r requirements.txt
+```
+
+### **🔹 Run the Model**
+```sh
+python model.py
+```
+
+### **🔹 Deploy the App**
+```sh
+python app.py
+```
+
+Open `http://127.0.0.1:5000/` in your browser to use the **MedExpenseAI** web app.
+
+---
+
+## 🎯 Why MedExpenseAI?
+
+✔ **Fast & Accurate** – Predicts insurance costs with 86% precision.  
+✔ **Data-Driven Decisions** – Helps users understand how various factors impact costs.  
+✔ **Easy-to-Use** – Simple deployment and interactive results.  
+✔ **Scalable & Customizable** – Train on new datasets for better insights.  
+
+---
+
+## 🏆 Contribute & Improve
+
+Want to improve **MedExpenseAI**? Contributions are welcome!  
+- Fork the repo  
+- Submit pull requests  
+- Enhance model accuracy  
+- Improve deployment  
+
+Let’s make **medical expense predictions smarter together**! 💡
+
+---
+
+## 🤝 Connect & Support
+If you found this project helpful, give it a ⭐ on GitHub!  
+For questions, reach out or submit an issue.  
+
+🚀 **Let’s revolutionize insurance cost predictions with AI!**  
